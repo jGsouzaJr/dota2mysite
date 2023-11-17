@@ -2,5 +2,90 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
+
+body{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 5px;
+  padding-top: 30px;
+  background: #1b2023;
+}
+
+header{
+  text-align: center;
+  padding: 20px;
+}
+
+header h1{
+  color: #c7ab93;
+  font-size: 64px;
+}
+
+header p{
+  color: #a55;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+main{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+
+nav a{
+  color: #333;
+  display: grid;
+  padding: 16px 12px;  
+  background: #c7ab93;
+  border-radius: 4px;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+.conteudo{
+  text-align: right;
+  display: grid;
+  align-items: center;
+  padding: 30px;
+}
+
+.descricao, .vermais{
+  grid-column: 1;
+}
+
+
+
+
+
+.banner{
+  display: block;
+  max-width: 100%;
+  grid-column: 2;
+}
+
+.vantagens{
+ display: grid;
+ grid-template-columns: auto 1fr; 
+ gap: 5px 10px;
+ padding: 20px;
+}
+
+.vantagens p{
+  grid-column: 2;
+}
+
 
