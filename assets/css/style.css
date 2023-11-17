@@ -7,7 +7,7 @@
 }
 
 body{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin: 5px;
   padding-top: 30px;
   background: #1b2023;
@@ -41,6 +41,7 @@ main{
 
 
 nav a{
+  
   color: #333;
   display: grid;
   padding: 16px 12px;  
@@ -48,6 +49,7 @@ nav a{
   border-radius: 4px;
   margin: 0 10px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .container{
@@ -61,6 +63,27 @@ nav a{
   display: grid;
   align-items: center;
   padding: 30px;
+  color: #c7ab93;
+
+}
+.conteudo h1{
+  font-size: 36px;
+
+}
+.conteudo p{
+  
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.conteudo a{
+  padding: 16px 12px;
+  background: #f21010;
+  color: #000;
+  border-radius: 4px;
+  place-self: end; 
+  text-transform: uppercase;
+
 }
 
 .descricao, .vermais{
@@ -77,15 +100,38 @@ nav a{
   grid-column: 2;
 }
 
+.subdescricao{
+  display: grid;
+  text-align: right;
+  place-items: center;  
+  padding: 30px;
+  font-size: 32px;
+  background: #c7ab93;
+  text-transform: uppercase;
+}
+
 .vantagens{
  display: grid;
  grid-template-columns: auto 1fr; 
- gap: 5px 10px;
- padding: 20px;
+ gap: 0px 10px;
+ padding: 15px;
 }
 
 .vantagens p{
   grid-column: 2;
 }
+
+.vantagens h3{
+  color: #f21010;
+}
+
+.vantagens p{
+  color: #333;
+  background: #c7ab93;
+  padding: 10px;
+  border-radius: 4px;
+
+}
+
 
 
